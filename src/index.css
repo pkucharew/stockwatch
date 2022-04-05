@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #028484;
+  text-decoration: none;
+}
+a:hover {
+  color: #111827;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 928px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  background-color: #ddd;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 1px 2px 3px 1px #eee;
+}
+
+.Clock {
+  white-space: nowrap;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Form */
+
+label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input i {
+  /* font-awesome icons */
+  font-size: 1.3rem;
+  color: #444;
+  padding: 0 0.5rem 0 1rem;
+}
+
+input {
+  background: transparent;
+  width: 100%;
+}
+
+input,
+input:focus {
+  border: 0;
+  outline: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.Form button {
+  background-color: #028484;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+}
+.Form button:hover {
+  background-color: #005a5a;
+}
+
+/* Watchlist of Tickers */
+
+.Watchlist {
+  margin-top: 1rem;
+}
+
+.Watchlist table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Ticker {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+thead > tr:hover {
+  background: transparent;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #f8fafb;
+}
+tbody > tr:hover {
+  background-color: #e3eeee;
+}
